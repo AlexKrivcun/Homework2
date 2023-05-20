@@ -58,14 +58,14 @@ public class Homework3 {
         if (deliveryDistance <= 20) {
             System.out.println("Доставка занимает " + days + " дней");
         }
-        if (deliveryDistance <= 60) {
+        else if (deliveryDistance <= 60) {
             System.out.println("Доставка занимает " + (days + 1) + " дней");
         }
-        if (deliveryDistance <= 100) {
+        else if (deliveryDistance <= 100) {
             System.out.println("Доставка занимает " + (days + 2) + " дней");
         }
-        if (deliveryDistance > 100) {
-            System.out.println(deliveryDistance + " Нет доставки");
+        else {
+            System.out.println("Нет доставки");
         }
     }
 
@@ -73,35 +73,22 @@ public class Homework3 {
         int monthNumber = 12;
         switch (monthNumber) {
             case 12:
-                System.out.println(monthNumber + " Зима");
-                break;
+            case 1:
             case 2:
-                System.out.println(monthNumber + " Зима");
+                System.out.println(monthNumber + "Зима");
                 break;
             case 3:
-                System.out.println(monthNumber + " Весна");
-                break;
             case 4:
-                System.out.println(monthNumber + " Весна");
-                break;
             case 5:
                 System.out.println(monthNumber + " Весна");
                 break;
             case 6:
-                System.out.println(monthNumber + " Лето");
-                break;
             case 7:
-                System.out.println(monthNumber + " Лето");
-                break;
             case 8:
                 System.out.println(monthNumber + " Лето");
                 break;
             case 9:
-                System.out.println(monthNumber + " Осень");
-                break;
             case 10:
-                System.out.println(monthNumber + " Осень");
-                break;
             case 11:
                 System.out.println(monthNumber + " Осень");
                 break;
