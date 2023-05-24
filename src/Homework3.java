@@ -57,14 +57,11 @@ public class Homework3 {
         int days = 1;
         if (deliveryDistance <= 20) {
             System.out.println("Доставка занимает " + days + " дней");
-        }
-        else if (deliveryDistance <= 60) {
+        } else if (deliveryDistance <= 60) {
             System.out.println("Доставка занимает " + (days + 1) + " дней");
-        }
-        else if (deliveryDistance <= 100) {
+        } else if (deliveryDistance <= 100) {
             System.out.println("Доставка занимает " + (days + 2) + " дней");
-        }
-        else {
+        } else {
             System.out.println("Нет доставки");
         }
     }
@@ -97,3 +94,4 @@ public class Homework3 {
         }
     }
 }
+

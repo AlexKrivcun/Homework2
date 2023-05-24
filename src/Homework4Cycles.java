@@ -4,7 +4,7 @@ public class Homework4Cycles {
 
     private static void task1() {
         for (int Numbers = 1; Numbers <= 10; Numbers++) {
-            System.out.println(Numbers);
+            System.out.println("Итерация цикла " + Numbers);
         }
     }
 
@@ -28,7 +28,7 @@ public class Homework4Cycles {
 
     private static void task5() {
         for (int years = 1904; years <= 2096; years = years + 4) {
-            System.out.println(years);
+            System.out.println("Високосный год " + years);
         }
     }
 
