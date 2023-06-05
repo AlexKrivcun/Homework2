@@ -52,8 +52,8 @@ public class Homework5Cycles2 {
         double annualInterest = 0.07;
         double capitalNew = 0;
         int month = 0;
-        for ( ; capitalNew == 12_000_000; month++);
-        if ( month % 2 == 0) {
+        for (; capitalNew == 12_000_000; month++) ;
+        if (month % 2 == 0) {
             capitalNew = capitalInitial + capitalInitial * annualInterest;
             System.out.println("Месяц " + month + " , новый капитал" + capitalNew + " руб.");
         }
@@ -87,7 +87,7 @@ public class Homework5Cycles2 {
         for (; years <= 2123; years++) {
             years = years + 79;
             years = cometFlies + years;
-            if (years >= 1823 && years <= 2123 ) {
+            if (years >= 1823 && years <= 2123) {
                 System.out.println(years);
             }
         }
