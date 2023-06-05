@@ -55,7 +55,7 @@ public class Homework4Cycles {
     private static void task9() {
         for (int Month = 1; Month <= 12; Month++) {
             int accumulation = 29000;
-            int interestAccumulation = Month * 29000 + (Month * 29000 * 0_01);
+            int interestAccumulation = Month * accumulation + (Month * 29000 * 0_01);
             System.out.println("Месяц " + Month + " , сумма накоплений равна" + interestAccumulation + " рублей");
         }
     }
