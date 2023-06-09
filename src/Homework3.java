@@ -78,7 +78,7 @@ public class Homework3 {
             case 12:
             case 1:
             case 2:
-                System.out.println(monthNumber + "Зима");
+                System.out.println(monthNumber + " Зима");
                 break;
             case 3:
             case 4:

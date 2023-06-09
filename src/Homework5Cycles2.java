@@ -25,6 +25,7 @@ public class Homework5Cycles2 {
     private static void task2() {
         int numbers = 0;
         while (numbers <= 10) {
+            numbers++;
             System.out.print(numbers);
         }
         for (int i = 10; i >= 0; i--) {
@@ -37,10 +38,10 @@ public class Homework5Cycles2 {
         int populationY = 12_000_000;
         int years = 0;
         while (years <= 10) {
+            years++;
             int fertility = (populationY / 1000) * 17;
             int mortality = (populationY / 1000) * 8;
             populationY = populationY + fertility - mortality;
-            years++;
             System.out.println("Год " + years + " , счисленность населения составляет" + populationY + " человек");
         }
     }
@@ -49,10 +50,11 @@ public class Homework5Cycles2 {
         int capitalInitial = 15_000;
         double annualInterest = 0.07;
         double capitalNew = 0;
-        int Month = 0;
+        int month = 0;
         while (capitalNew <= 12_000_000) {
+            month++;
             capitalNew = capitalInitial + capitalInitial * annualInterest;
-            System.out.println("Месяц " + Month + " , новый капитал" + capitalNew + " руб.");
+            System.out.println("Месяц " + month + " , новый капитал" + capitalNew + " руб.");
         }
     }
 
@@ -83,9 +85,8 @@ public class Homework5Cycles2 {
 
     private static void task7() {
         int fridayReport = 5;
-        int numbers = 0;
         while (fridayReport <= 31) {
-                System.out.println("Сегодня пятница " + fridayReport + "-е число. Необходимо подготовить отчет" + numbers);
+                System.out.println("Сегодня пятница " + fridayReport + "-е число. Необходимо подготовить отчет");
             fridayReport = fridayReport + 7;
             }
     }
