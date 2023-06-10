@@ -32,7 +32,10 @@ public class Homework6Arrays {
     private static void task4() {
         int[] integerArray = {1, 2, 3};
         for (int i = 0; i < integerArray.length; i++) {
-            System.out.println(Arrays.toString(integerArray));
+            if (integerArray[i] % 2 != 0) {
+                integerArray[i] += 1;
+            }
         }
+        System.out.println(Arrays.toString(integerArray));
     }
 }
