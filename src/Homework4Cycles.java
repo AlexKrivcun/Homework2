@@ -31,8 +31,8 @@ public class Homework4Cycles {
     }
 
     private static void task4() {
-        for (int Numbers = 10; Numbers <= -10; Numbers--) {
-            System.out.println(Numbers);
+        for (int numbers = 10; numbers <= -10; numbers--) {
+            System.out.println(numbers);
         }
     }
 

@@ -64,9 +64,10 @@ public class Homework5Cycles2 {
         double capitalNew = 0;
         int month = 0;
         for (; capitalNew <= 12_000_000; month++) {
-        capitalNew = capitalNew + capitalInitial * annualInterest;
-        if (month % 6 == 0) {
-            System.out.println("Месяц " + month + " , новый капитал" + capitalNew + " руб.");
+            capitalNew = capitalNew + capitalInitial * annualInterest;
+            if (month % 6 == 0) {
+                System.out.println("Месяц " + month + " , новый капитал" + capitalNew + " руб.");
+            }
         }
     }
 
@@ -86,9 +87,9 @@ public class Homework5Cycles2 {
     private static void task7() {
         int fridayReport = 5;
         while (fridayReport <= 31) {
-                System.out.println("Сегодня пятница " + fridayReport + "-е число. Необходимо подготовить отчет");
+            System.out.println("Сегодня пятница " + fridayReport + "-е число. Необходимо подготовить отчет");
             fridayReport = fridayReport + 7;
-            }
+        }
     }
 
     private static void task8() {
@@ -99,12 +100,10 @@ public class Homework5Cycles2 {
             }
         }
     }
+
     private static void task9() {
         for (int i = 0; i < 12; i++) {
             System.out.println(i);
         }
     }
 }
-
-
-
