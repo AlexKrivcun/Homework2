@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class Homework6Arrays {
     public static void main(String[] args) {
@@ -12,8 +13,6 @@ public class Homework6Arrays {
         integerArray[0] = 1;
         integerArray[1] = 2;
         integerArray[2] = 3;
-        System.out.println(Arrays.toString(integerArray));
-    }
 
     private static void task2() {
         double[] integerArray = new double[3];
