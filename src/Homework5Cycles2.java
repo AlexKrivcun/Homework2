@@ -49,12 +49,11 @@ public class Homework5Cycles2 {
     private static void task4() {
         double capitalInitial = 15_000;
         double annualInterest = 0.07;
-        double capitalNew = 0;
         int month = 0;
-        while (capitalNew <= 12_000_000) {
+        while (capitalInitial < 12_000_000) {
             month++;
-            capitalNew = capitalInitial + capitalInitial * annualInterest;
-            System.out.println("Месяц " + month + " , новый капитал" + capitalNew + " руб.");
+            capitalInitial = capitalInitial + capitalInitial * annualInterest;
+            System.out.println("Месяц " + month + " , новый капитал" + capitalInitial + " руб.");
         }
     }
 
