@@ -1,9 +1,13 @@
 public class Homework7Arrays2 {
     public static void main(String[] args) {
         task1();
+        System.out.println();
         task2();
+        System.out.println();
         task3();
+        System.out.println();
         task4();
+        System.out.println();
     }
 
     public static int[] generateRandomArray() {
