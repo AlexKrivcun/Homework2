@@ -62,7 +62,7 @@ public class Homework5Cycles2 {
         double annualInterest = 0.07;
         double capitalNew = 0;
         int month = 0;
-        for (; capitalNew <= 12_000_000; month++) ;
+        for (; capitalNew <= 12_000_000; month++);
         capitalNew = capitalNew + capitalInitial * annualInterest;
         if (month % 6 == 0) {
             System.out.println("Месяц " + month + " , новый капитал" + capitalNew + " руб.");
@@ -78,7 +78,7 @@ public class Homework5Cycles2 {
         while (month <= year * 12) {
             month++;
             capitalNew = capitalInitial + capitalInitial * annualInterest;
-
+            if (month % 6 == 0) {
             System.out.println("Месяц 6й " + month + " , новый капитал6" + capitalNew + " руб.");
         }
     }
