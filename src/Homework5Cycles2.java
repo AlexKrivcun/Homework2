@@ -79,7 +79,8 @@ public class Homework5Cycles2 {
             month++;
             capitalNew = capitalInitial + capitalInitial * annualInterest;
             if (month % 6 == 0) {
-            System.out.println("Месяц 6й " + month + " , новый капитал6" + capitalNew + " руб.");
+                System.out.println("Месяц 6й " + month + " , новый капитал6" + capitalNew + " руб.");
+            }
         }
     }
 
